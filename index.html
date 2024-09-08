@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="folder-logo.jfif" type="image/x-icon">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">Port<span>folio</span></a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#objective" data-target="objective">Objective</a></li>
+                    <li><a href="#about" data-target="about">About</a></li>
+                    <li><a href="#service" data-target="service">Services</a></li>
+                    <li><a href="#contact" data-target="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="objective" class="intro zoom-in visible">
+        <div class="container">
+            <div class="intro-content">
+                <div class="text-content">
+                    <h1 class="enlarged-text">
+                        Hi, I'm Jonel!<br />
+                    </h1>
+                    <p class="highlighted-text">
+                        Currently a First year College <span class="highlight-blue">BSCS Student</span> in<br />
+                        <span class="highlight-blue">Kolehiyo Lungsod ng Lipa (KLL)</span><br />
+                    </p>
+                </div>
+                <div class="image-content">
+                    <img src="jonel-logo.jpg" alt="Jonel C. Abad" class="responsive-image" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="hidden">
+        <div class="container">
+            <div class="text-content">
+                I developed a strong interest in computers and programming<br />
+                during my time in high school, particularly when I joined the Computer Science<br />
+                club and started working on coding projects.<br />
+                As I advanced to senior high school,<br />
+                I chose to take the Humanities and Social Sciences (HUMSS) track,<br />
+                where I continued to explore my passion for technology through interdisciplinary<br />
+                projects that combined programming with social science research.<br />
+            </div>
+            <div class="image-container">
+                <img src="https://www.careerguide.com/career/wp-content/uploads/2021/01/coding_gif.gif"
+                    alt="Description of Image" class="about-image" />
+            </div>
+        </div>
+    </section>
+
+    <section id="service" class="hidden">
+        <div class="container">
+            <div class="service-details">
+                <div class="service-item">
+                    <h3>Web Development</h3>
+                    <p>I offer top-notch web development services to create beautiful and functional websites tailored
+                        to your needs.</p>
+                </div>
+                <div class="service-item">
+                    <h3>App Development</h3>
+                    <p>My app development services include creating custom mobile applications to enhance your business
+                        operations.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Consulting</h3>
+                    <p>I provide expert consulting services to help you navigate the complexities of technology and
+                        maximize your success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you have any questions or inquiries, feel free to reach out to me through the following methods:</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p><a href="abadjonel91@gmail.com">abadjonel91@gmail.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <p><a href="tel:+1234567890">+639093511090</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Social Media</h3>
+                    <p>
+                        <a href="https://x.com/AbadCasinillo?s=09" target="_blank">Twitter</a> |
+                        <a href="https://www.facebook.com/nimu.smille?mibextid=ZbWKwL" target="_blank">Facebook</a>
+                    </p>
+                </div>
+            </div>
+            <form action="/submit-form" method="post" class="contact-form">
+                <h3>Send me a message</h3>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Jonel Abad. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
